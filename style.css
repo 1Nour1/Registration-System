@@ -1,0 +1,273 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* MY CODE */    /**/
+/*Tyle for header Login*/
+.main-wrapper{
+  margin:0 auto;
+  width: 1000px;
+}
+a{/* to remove the underline from home and any a */
+  text-decoration: none;
+}
+body{
+  background-color: #ccc;
+}
+
+header nav{/*to style the top of the page*/
+width: 100%;
+height: 60px;
+background-color: #fff
+}
+
+header nav ul{
+float: left;
+}
+
+header nav ul li {/** mesh fahem lazmetha eih**/
+float: left;
+list-style: none;
+}
+
+header nav ul li a{/**To style HOME**/
+  font-family: Times New Roman ;
+  font-size: 30px;
+  color: #179b77;
+  line-height: 63px;
+}
+
+header .nav-login{/**/
+float: right;
+}
+
+header .nav-login form{/* to style the form itself inputs and button*/
+float: left;
+padding-top: 15px;
+}
+
+header .nav-login form input{/*to style the two inputs username and password*/
+float: left;
+width: 140px;
+height: 30px;
+padding: 0px 10px;
+margin-right: 10px;
+border: none;
+background-color: rgba(160, 179, 176, 0.25);
+font-family:   monospace;
+font-size: 15px;
+color: #000;
+line-height: 30px;
+}
+header .nav-login form button{/*to style the submit button*/
+float: left;
+width: 80px;
+height: 30px;
+margin-right: 10px;
+background-color:#1ab188;
+border: none;
+font-family: arial;
+font-size: 15px;
+color: #ffffff;
+cursor: pointer;
+}
+header .nav-login form button:hover {
+    background-color: #701316;
+}
+header .nav-login a {/*to style the sign up button*/
+
+    display: block;
+    width: 60px;
+    height: 30px;
+    border: none;
+    float: left;
+    background-color: #ffffff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+.main-container{
+  padding-top: 40px;
+}
+.main-container h2{
+  font-family: Times New Roman;
+  font-size: 40px;
+  color: #045594;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*style for sign up*/
+.signup-form{
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.signup-form input{
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 4px;
+  border: none;
+  background-color: rgba(160, 179, 176, 0.25);
+  font-family: monospace;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+}
+.signup-form button{
+  width: 30%;
+  height: 40px;
+ background-color:#1ab188;
+  border: none;
+  font-family: arial;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+margin-left: 140px;
+
+}
+.signup-form button: hover{
+    background-color: #701316;
+}
+
+/*style for table*/
+.table-design{
+
+    font-family: Times New Roman;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tr-design{
+  font-size: 25px;
+  color: #047894;
+  border: 1px solid #1ab188;
+     text-align: left;
+     padding: 8px;
+
+}
+.tr-design th{
+  border: 1px solid #1ab188;
+     text-align: left;
+     padding: 8px;
+
+}
+ .td_design {
+     font-size: 20px;
+  border: 1px solid #1ab188;
+     text-align: left;
+     padding: 8px;
+
+}
+.welcome{
+    padding-top: 20px;
+  margin:0 auto;
+  width: 1000px;
+  font-family: Times New Roman;
+  font-size: 40px;
+  color: #045594;
+  line-height: 50px;
+  text-align: center;
+}
